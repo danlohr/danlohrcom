@@ -1,0 +1,73 @@
+header ~div>h2, header~h2, header~h3, header~h3 {
+    background-color: #203a73;
+    color: #eeeeee;
+    padding: 10px;
+    border-radius: 5px;
+}
+header {position: fixed;
+        top: 0px;
+        left: 0px;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        border-radius:0px;
+        z-index: 100;
+}
+header + div {margin-top: 100px;
+}
+
+
+div.number9 {line-height: 1.5em;
+    text-align: left
+}
+a.links {text-decoration: none;
+}
+figure>figcaption {
+    font-style: normal;
+}
+td.cell {background-color: #192c4d;
+        color: white
+}
+#quote{width: 173px;
+      float: right;
+}
+blockquote:first-letter{font-size: 200%;
+                        font-weight: bold;
+}
+blockquote {border: 3px inset #0088dd;
+            color:black;
+            font-family:"Blackadder ITC", Georgia, serif;
+            padding:2px 7px 2px 7px;
+            margin-right: 0px;
+            text-align: right;
+            box-shadow: 7px 7px 5px #888888;
+            float: right;
+}
+footer {text-align: center;
+        text-shadow: 1px 2px 4px #737978;
+}
+h2 {/*color:#1F213F; For some reason this would not work, even though the other 3 selectors worked.
+  I could not figure out why this was the case, so I gave the rest of the headings a class of
+  "listheading" and changed the color for all of them that way, whiched worked for some reason.*/
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3b/Background-image.jpg");
+ 	background-repeat: repeat-x;
+  text-shadow: 7px 5px 5px #888888;
+}
+.listheading {color:#1F213F;
+}
+
+@media screen and (min-width: 480px) {
+  .col {
+    width: 33.3%;
+  }
+}
+
+/* New css danlohr.com */
+
+.images {padding: 5px;
+        border-radius: 15px;
+        float:left;
+}
+
+.welcome {padding-top: 3px;
+}
