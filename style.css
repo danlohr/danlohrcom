@@ -28,12 +28,10 @@ figure>figcaption {
 td.cell {background-color: #192c4d;
         color: white
 }
-#quote{width: 173px;
-      float: right;
-}
+
 blockquote:first-letter{font-size: 200%;
-                        font-weight: bold;
 }
+
 blockquote {border: 3px inset #0088dd;
             color:black;
             font-family:"Blackadder ITC", Georgia, serif;
@@ -56,11 +54,7 @@ h2 {/*color:#1F213F; For some reason this would not work, even though the other 
 .listheading {color:#1F213F;
 }
 
-@media screen and (min-width: 480px) {
-  .col {
-    width: 33.3%;
-  }
-}
+
 
 /* New css danlohr.com */
 
@@ -69,5 +63,9 @@ h2 {/*color:#1F213F; For some reason this would not work, even though the other 
         float:left;
 }
 
-.welcome {padding-top: 3px;
+.welcome {padding-top: 5px;
+}
+
+iframe {padding-top: 20px;
+
 }
