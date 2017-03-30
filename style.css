@@ -70,13 +70,20 @@ iframe {padding-top: 20px;
 }
 
 body {
-    background-color: gray;
+    background-color:  #cccccc;
 }
 
 p, dd, li {color: black;
 }
 
-#welcome2 {padding-bottom: 10px;
+#welcome2 {padding-bottom: 13px;
 }
 
 header>p {color: white}
+
+html, body, #map {
+        height: 100%;
+        margin: 0;
+        padding: 7px;
+        float: center;
+      }

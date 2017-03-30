@@ -1,0 +1,73 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+	  "type" : "Feature",
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [-76.064858, 39.217313]
+	  },
+	  "properties": {
+		"name": "Chestertown, MD",
+    "descrip": "<p>My hometown",
+    "icon": "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
+    "answerLink": "<p><a href=http://townofchestertown.com/ target=_blank>Click for info</a></p>"
+    }
+    },
+    {
+	  "type" : "Feature",
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [-79.445064, 37.790037]
+	  },
+	  "properties": {
+		"name": "Lexington, VA",
+		"descrip": "<p>Washington and Lee University</p>",
+		"icon": "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
+    "answerLink": "<p><a href=https://www.wlu.edu/ target=_blank>Click for info</a></p>"
+
+    }
+  },
+    {
+    "type" : "Feature",
+	  "geometry": {
+		"type": "Point",
+		"coordinates": [-85.875048, 11.258372]
+	  },
+	  "properties": {
+		"name": "San Juan del Sur, Nicaragua",
+		"descrip": "<p>A beautiful beach town on the Pacific coast. Meet travelers, hit up the surf, and hit up the bars.</p>",
+		"icon": "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
+    "answerLink": "<p><a href=http://sanjuandelsur.org/ target=_blank>Click for info</a><p>"
+
+    }
+  },
+  {
+  "type" : "Feature",
+  "geometry": {
+  "type": "Point",
+  "coordinates": [-83.764520, 12.012770]
+  },
+  "properties": {
+  "name": "Bluefields, Nicaragua",
+  "descrip": "<p>Capital of the South Caribbean Autonomous Region. Good luck getting here, but once you do, you truly enter a microcosm of Caribbean culture mixed with the historical influences of  indigenous populations and Spanish colonization.</p>",
+  "icon": "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
+  "answerLink": "<p><a href=https://www.lonelyplanet.com/nicaragua/caribbean-coast/bluefields target=_blank>Click for info</a></p>"
+}
+},
+{
+"type" : "Feature",
+"geometry": {
+"type": "Point",
+"coordinates": [-82.367914, 23.105360]
+},
+"properties": {
+"name": "Havana, Cuba",
+"descrip": "<p>It is still hard to travel here, but in the near future more people will be able to get tourist visas.",
+"icon": "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
+"answerLink": "<a href=https://www.lonelyplanet.com/cuba/havana target=_blank>Click for info</a>"
+}
+}
+
+  ]
+}
