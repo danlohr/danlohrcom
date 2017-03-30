@@ -32,7 +32,7 @@ blockquote:first-letter{font-size: 200%;
 }
 
 blockquote {border: 3px inset #0088dd;
-            font-size: 1.3em;
+            font-size: 2em;
             color:black;
             font-family:"Blackadder ITC", Georgia, serif;
             padding:2px 7px 2px 7px;
@@ -44,9 +44,7 @@ blockquote {border: 3px inset #0088dd;
 footer {text-align: center;
         text-shadow: 1px 2px 4px #737978;
 }
-h2 {/*color:#1F213F; For some reason this would not work, even though the other 3 selectors worked.
-  I could not figure out why this was the case, so I gave the rest of the headings a class of
-  "listheading" and changed the color for all of them that way, whiched worked for some reason.*/
+h2 {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3b/Background-image.jpg");
  	background-repeat: repeat-x;
   text-shadow: 7px 5px 5px #888888;
