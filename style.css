@@ -52,8 +52,6 @@ h2 {
 .listheading {color:#1F213F;
 }
 
-
-
 /* New css danlohr.com */
 
 .images {padding: 5px 10px 2px 2px;
@@ -86,4 +84,7 @@ html, body, #map {
         float: center;
       }
 #donate {padding: 5px;
+}
+
+#venmo {color: navy;
 }
