@@ -20,8 +20,7 @@ header + div {margin-top: 100px;
 div.number9 {line-height: 1.5em;
     text-align: left
 }
-a.links {text-decoration: none;
-}
+
 figure>figcaption {
     font-style: normal;
 }
@@ -33,13 +32,14 @@ blockquote:first-letter{font-size: 200%;
 }
 
 blockquote {border: 3px inset #0088dd;
+            font-size: 1.3em;
             color:black;
             font-family:"Blackadder ITC", Georgia, serif;
             padding:2px 7px 2px 7px;
             margin-right: 0px;
             text-align: right;
             box-shadow: 7px 7px 5px #888888;
-            float: right;
+            float: left;
 }
 footer {text-align: center;
         text-shadow: 1px 2px 4px #737978;
@@ -58,14 +58,25 @@ h2 {/*color:#1F213F; For some reason this would not work, even though the other 
 
 /* New css danlohr.com */
 
-.images {padding: 5px;
+.images {padding: 5px 10px 2px 2px;
         border-radius: 15px;
         float:left;
 }
 
-.welcome {padding-top: 5px;
+.welcome {padding-top: 20px;
 }
 
 iframe {padding-top: 20px;
-
 }
+
+body {
+    background-color: gray;
+}
+
+p, dd, li {color: black;
+}
+
+#welcome2 {padding-bottom: 10px;
+}
+
+header>p {color: white}
