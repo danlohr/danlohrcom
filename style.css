@@ -62,7 +62,7 @@ h2 {
 .welcome {padding-top: 20px;
 }
 
-iframe {padding-top: 20px;
+iframe {padding: 15px 3px 15px 3px;
 }
 
 body {
@@ -80,7 +80,7 @@ header>p {color: white}
 html, body, #map {
         height: 100%;
         margin: 0;
-        padding: 7px;
+        padding: 25px;
         float: center;
       }
 #donate {padding: 5px;
